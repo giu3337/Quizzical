@@ -91,7 +91,7 @@ const QuizzMain = () => {
       <div className="scoreAndButtonContainer">
         {score !== null && (
           <p className="scoreParagraph">You scored {score}/{questions.length} correct answers.</p>
-        )}````
+        )}
         <img src="blobsDown.png" alt="Blue circle" className='bottom-left-image' />
       </div>
     </div>
